@@ -76,4 +76,5 @@ Then we can use a paired t-test to determine if there is a statistical differenc
 ``
 t.test(MechaCar_mpg$cty,Audi_mpg$cty,paired = T)
 ``
+
 We will be able to perform the same pair t-test with the average highway fuel economy (hwy), the cylinder size (cyl), and the size of each car engine (displ) because we are dealing with continuous variables.
